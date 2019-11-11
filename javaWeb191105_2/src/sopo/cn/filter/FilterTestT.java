@@ -1,25 +1,23 @@
 package sopo.cn.filter;
 
 import java.io.IOException;
+
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import javax.websocket.Session;
 
 import sopo.cn.controller.UserController;
 
 /**
  * Servlet Filter implementation class FilterTestT
  */
-@WebFilter("/*")
 public class FilterTestT implements Filter {
 
     /**

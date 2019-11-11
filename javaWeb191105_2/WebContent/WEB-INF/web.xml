@@ -9,4 +9,48 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <!-- <filter>
+  	<filter-name>LogFilter</filter-name>
+  	<filter-class>com.runoob.test.LogFilter</filter-class>
+  	<init-param>
+  		<param-name>test-param</param-name>
+  		<param-value>Initialization Paramter</param-value>
+  	</init-param>
+  </filter>
+  <filter>
+  	<filter-name>AuthenFilter</filter-name>
+  	<filter-class>com.runoob.test.AuthenFilter</filter-class>
+  	<init-param>
+  		<param-name>test-param</param-name>
+  		<param-value>Initialization Paramter</param-value>
+  	</init-param>
+  </filter> 
+  
+  <filter-mapping>
+  	<filter-name>LogFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping> 
+  <filter-mapping>
+  	<filter-name>AuthenFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping> -->
+  
+  <servlet>
+  	<servlet-name>DisplayHeader</servlet-name>
+  	<servlet-class>sopo.cn.test191106.DisplayHeader</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DisplayHeader</servlet-name>
+  	<url-pattern>/TomcatTest/DisplayHeader</url-pattern>
+  </servlet-mapping>
+  
+  <!-- <listener>
+  	<listener-class>sopo.cn.listener.MyServetContextListener</listener-class>
+  </listener> -->
+  
+  <context-param>
+  	<param-name>userName</param-name>
+  	<param-value>LHJ</param-value>
+  </context-param>
 </web-app>
