@@ -4,7 +4,7 @@
 		<property name="user">root</property>
 		<!-- // 注意这里name的值,一定要参考setXxxx里的Xxxx值 -->
 		<property name="password">F2NRnjVsKe</property>
-		<property name="jdbcUrl">jdbc:mysql://localhost:3306/books?serverTimezone=Asia/Shanghai</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/lession45frominternet?serverTimezone=Asia/Shanghai</property>
 		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
 
 		<!-- 若数据库中的连接数量不足的时候,想数据库申请的连接数量 -->

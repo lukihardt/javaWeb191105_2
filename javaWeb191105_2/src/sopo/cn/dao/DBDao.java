@@ -1,6 +1,6 @@
 package sopo.cn.dao;
 
-import java.sql.Connection; 
+import java.sql.Connection;  
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -21,6 +21,7 @@ public class DBDao {
 		dataSource = new ComboPooledDataSource("mysql");
 	}
 	public static Connection getConnection() throws SQLException {
+		dataSource = new ComboPooledDataSource("mysql");
 		return dataSource.getConnection();
 	}
 	
